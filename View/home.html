@@ -1,0 +1,98 @@
+<html>
+<head>
+<style>
+*{ margin:0;
+padding:0;
+}
+#container ul{
+list-style:none;
+}
+#container ul li{
+background-color:3C3E94;
+width:150px;
+border:1px solid white;
+height:40px;
+line-height:40px;
+text-align:center;
+float:left;
+color:white;
+font-sie:18px;
+}
+#container ul li:hover{
+background-color:388222;
+}
+#codeeditor ul{
+list-style:none;}
+
+#codeeditor ul li{
+background-color:3C3E94;
+width:120px;
+border:1px solid white;
+height:30px;
+float:left;
+color:white;
+font-size:18px;
+}
+#treeeditor ul{
+list-style:none;}
+
+#treeeditor ul li{
+background-color:3C3E94;
+width:120px;
+border:1px solid white;
+height:30px;
+float:left;
+color:white;
+font-size:18px;
+}
+</style> 
+<title>json design</title>
+</head>
+<body>
+<div id="container">
+<ul>
+<li>NEW</li>
+<li>OPEN
+<ul>
+<li>OPEN FROM DISK </li>
+<li>OPEN URL</li>
+</ul>
+<li>SAVE
+<ul>
+<li>SAVE TO FILE</li>
+<li> SAVE ONLINE</li>
+</ul> </li>
+<li>SETTINGS
+<ul>
+<li>IDENTATION</li>
+<li>VALIDATE SCHEMA</li>
+</ul>
+</li>
+<li>HELP</li>
+</<ul>
+</div>
+<form align="left">
+<div id ="codeeditor">
+<ul>
+<li>CODE EDITOR</li>
+
+</ul>
+</div>
+
+<textarea rows="80" cols="80"></textarea>
+
+</form>
+
+<form align="left">
+<div id ="treeeditor">
+<ul>
+<li>TREE EDITOR</li>
+
+</ul>
+</div>
+<textarea rows="70" cols="70"></textarea>
+
+</form>
+</body>
+</html>
+
